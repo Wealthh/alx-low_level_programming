@@ -2,10 +2,10 @@
 #include <unistd.h>
 /**
  * main -This program is written in C
- * Return 1 (succes)
+ * Return 1 (success)
  */
 int main(void)
 {
         fputs("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
-return (1):
+return (1);
 }
