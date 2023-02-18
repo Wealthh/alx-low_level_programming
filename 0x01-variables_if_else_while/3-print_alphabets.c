@@ -5,14 +5,14 @@
  */
 int main(void)
 {
-
 	char c = 'a';
 
 	while (c <= 'z')
 	{
-		putchar(c):
+		putchar(c);
 		c++;
 	}
+
 	c = 'A';
 
 	while (c <= 'Z')
@@ -20,6 +20,7 @@ int main(void)
 		putchar(c);
 		c++;
 	}
+
 	putchar('\n');
 	return (a);
 }
