@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main -program
+ * main -progra that prints
  * Return: always 0 (success)
  */
 int main(void)
@@ -12,7 +12,7 @@ int main(void)
 	{
 		putchar(ch);
 	}
-	for (ch = 'a'; ch <= 'f' ch++)
+	for (ch = 'a'; ch <= 'f'; ch++)
 	{
 		putchar(ch);
 	}
