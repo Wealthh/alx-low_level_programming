@@ -1,21 +1,23 @@
 #include "main.h"
 /**
- * print_line -it prints a straight line
- * @n: the number of times the char _ should be printed
+ * print_line - print a line
+ * @n: says how many lines this functions is going to print
+ * Return: the restive cantity of lines
  */
 void print_line(int n)
 {
-	if (n <= 0)
-	{
-		_putchar('\n');
-	} else
-	{
-		int i;
+	int i;
 
-		for (i = 1; i <= n; i++)
+	if (!(n <= 0))
+	{
+		for (i = 0; i < n; i++)
 		{
-			_putchar('-');
+			_putchar('_');
 		}
+		_putchar('\n');
+	}
+	else
+	{
 		_putchar('\n');
 	}
 }
