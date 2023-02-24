@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include <stdio.h>
 /**
  * main -prints the numbers from 1 to 100 \n
  * for multiples of 3 print fizz multiples of 5 print buzz
