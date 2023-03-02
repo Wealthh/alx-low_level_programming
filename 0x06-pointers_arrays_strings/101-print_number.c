@@ -2,8 +2,6 @@
 /**
  * print_number -a function that prints an integer
  * @n: integer parameters
- * @n1: unsigned int
- * _putchar -putchar
  * Return: 0(success)
  */
 void print_number(int n)
